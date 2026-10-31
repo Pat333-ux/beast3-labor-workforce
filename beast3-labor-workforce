@@ -1,0 +1,29 @@
+beast3-labor-workforce/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── docs/
+│   ├── charter.md
+│   ├── governance.md
+│   ├── policies.md
+│   └── workforce-framework.md
+│
+├── src/
+│   ├── core/
+│   │   ├── JobRegistry.ts
+│   │   ├── CandidateManager.ts
+│   │   ├── TrainingPrograms.ts
+│   │   ├── CertificationTracker.ts
+│   │   └── WorkforceReport.ts
+│   │
+│   ├── api/
+│   │   └── workforce.ts
+│   │
+│   └── app/
+│       ├── layout.tsx
+│       └── page.tsx
+│
+└── public/
+    └── logo.png
